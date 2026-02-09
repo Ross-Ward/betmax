@@ -1,0 +1,417 @@
+[
+  {
+    "id": "ufc_rank_men's_pound-for-pound_top_rank",
+    "sport": "mma",
+    "category": "Men's Pound-for-Pound Top Rank",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Islam Makhachev",
+        "participant_id": "ufc_p_islam_makhachev"
+      },
+      {
+        "rank": 2,
+        "participant_name": "Ilia Topuria",
+        "participant_id": "ufc_p_ilia_topuria"
+      },
+      {
+        "rank": 3,
+        "participant_name": "Khamzat Chimaev",
+        "participant_id": "ufc_p_khamzat_chimaev"
+      },
+      {
+        "rank": 4,
+        "participant_name": "Alexander Volkanovski",
+        "participant_id": "ufc_p_alexander_volkanovski"
+      },
+      {
+        "rank": 5,
+        "participant_name": "Alex Pereira",
+        "participant_id": "ufc_p_alex_pereira"
+      },
+      {
+        "rank": 6,
+        "participant_name": "Petr Yan",
+        "participant_id": "ufc_p_petr_yan"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Merab Dvalishvili",
+        "participant_id": "ufc_p_merab_dvalishvili"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Tom Aspinall",
+        "participant_id": "ufc_p_tom_aspinall"
+      },
+      {
+        "rank": 9,
+        "participant_name": "Alexandre Pantoja",
+        "participant_id": "ufc_p_alexandre_pantoja"
+      },
+      {
+        "rank": 10,
+        "participant_name": "Max Holloway",
+        "participant_id": "ufc_p_max_holloway"
+      },
+      {
+        "rank": 11,
+        "participant_name": "Joshua Van",
+        "participant_id": "ufc_p_joshua_van"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Magomed Ankalaev",
+        "participant_id": "ufc_p_magomed_ankalaev"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Dricus Du Plessis",
+        "participant_id": "ufc_p_dricus_du_plessis"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Jack Della Maddalena",
+        "participant_id": "ufc_p_jack_della_maddalena"
+      },
+      {
+        "rank": 15,
+        "participant_name": "Arman Tsarukyan",
+        "participant_id": "ufc_p_arman_tsarukyan"
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:17.095Z"
+  },
+  {
+    "id": "ufc_rank_flyweight",
+    "sport": "mma",
+    "category": "Flyweight",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Alexandre Pantoja",
+        "participant_id": "ufc_p_alexandre_pantoja"
+      },
+      {
+        "rank": 2,
+        "participant_name": "Manel Kape",
+        "participant_id": "ufc_p_manel_kape"
+      },
+      {
+        "rank": 3,
+        "participant_name": "Tatsuro Taira",
+        "participant_id": "ufc_p_tatsuro_taira"
+      },
+      {
+        "rank": 4,
+        "participant_name": "Brandon Royval",
+        "participant_id": "ufc_p_brandon_royval"
+      },
+      {
+        "rank": 5,
+        "participant_name": "Brandon Moreno",
+        "participant_id": "ufc_p_brandon_moreno"
+      },
+      {
+        "rank": 6,
+        "participant_name": "Amir Albazi",
+        "participant_id": "ufc_p_amir_albazi"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Asu Almabayev",
+        "participant_id": "ufc_p_asu_almabayev"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Kyoji Horiguchi",
+        "participant_id": "ufc_p_kyoji_horiguchi"
+      },
+      {
+        "rank": 9,
+        "participant_name": "Tim Elliott",
+        "participant_id": "ufc_p_tim_elliott"
+      },
+      {
+        "rank": 10,
+        "participant_name": "Alex Perez",
+        "participant_id": "ufc_p_alex_perez"
+      },
+      {
+        "rank": 11,
+        "participant_name": "Steve Erceg",
+        "participant_id": "ufc_p_steve_erceg"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Tagir Ulanbekov",
+        "participant_id": "ufc_p_tagir_ulanbekov"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Charles Johnson",
+        "participant_id": "ufc_p_charles_johnson"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Bruno Silva",
+        "participant_id": "ufc_p_bruno_silva"
+      },
+      {
+        "rank": 15,
+        "participant_name": "Lone’er Kavanagh",
+        "participant_id": "ufc_p_lone’er_kavanagh"
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:17.095Z"
+  },
+  {
+    "id": "ufc_rank_bantamweight",
+    "sport": "mma",
+    "category": "Bantamweight",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Merab Dvalishvili",
+        "participant_id": "ufc_p_merab_dvalishvili"
+      },
+      {
+        "rank": 2,
+        "participant_name": "Umar Nurmagomedov",
+        "participant_id": "ufc_p_umar_nurmagomedov"
+      },
+      {
+        "rank": 3,
+        "participant_name": "Sean O'Malley",
+        "participant_id": "ufc_p_sean_o'malley"
+      },
+      {
+        "rank": 4,
+        "participant_name": "Cory Sandhagen",
+        "participant_id": "ufc_p_cory_sandhagen"
+      },
+      {
+        "rank": 5,
+        "participant_name": "Song Yadong",
+        "participant_id": "ufc_p_song_yadong"
+      },
+      {
+        "rank": 6,
+        "participant_name": "Aiemann Zahabi",
+        "participant_id": "ufc_p_aiemann_zahabi"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Deiveson Figueiredo",
+        "participant_id": "ufc_p_deiveson_figueiredo"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Marlon Vera",
+        "participant_id": "ufc_p_marlon_vera"
+      },
+      {
+        "rank": 9,
+        "participant_name": "Mario Bautista",
+        "participant_id": "ufc_p_mario_bautista"
+      },
+      {
+        "rank": 10,
+        "participant_name": "David Martinez",
+        "participant_id": "ufc_p_david_martinez"
+      },
+      {
+        "rank": 11,
+        "participant_name": "Vinicius Oliveira",
+        "participant_id": "ufc_p_vinicius_oliveira"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Payton Talbott",
+        "participant_id": "ufc_p_payton_talbott"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Rob Font",
+        "participant_id": "ufc_p_rob_font"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Kyler Phillips",
+        "participant_id": "ufc_p_kyler_phillips"
+      },
+      {
+        "rank": 15,
+        "participant_name": "Montel Jackson",
+        "participant_id": "ufc_p_montel_jackson"
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:17.095Z"
+  },
+  {
+    "id": "ufc_rank_featherweight",
+    "sport": "mma",
+    "category": "Featherweight",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Movsar Evloev",
+        "participant_id": "ufc_p_movsar_evloev"
+      },
+      {
+        "rank": 2,
+        "participant_name": "Diego Lopes",
+        "participant_id": "ufc_p_diego_lopes"
+      },
+      {
+        "rank": 3,
+        "participant_name": "Lerone Murphy",
+        "participant_id": "ufc_p_lerone_murphy"
+      },
+      {
+        "rank": 4,
+        "participant_name": "Yair Rodriguez",
+        "participant_id": "ufc_p_yair_rodriguez"
+      },
+      {
+        "rank": 5,
+        "participant_name": "Aljamain Sterling",
+        "participant_id": "ufc_p_aljamain_sterling"
+      },
+      {
+        "rank": 6,
+        "participant_name": "Jean Silva",
+        "participant_id": "ufc_p_jean_silva"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Arnold Allen",
+        "participant_id": "ufc_p_arnold_allen"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Youssef Zalal",
+        "participant_id": "ufc_p_youssef_zalal"
+      },
+      {
+        "rank": 9,
+        "participant_name": "Steve Garcia",
+        "participant_id": "ufc_p_steve_garcia"
+      },
+      {
+        "rank": 10,
+        "participant_name": "Brian Ortega",
+        "participant_id": "ufc_p_brian_ortega"
+      },
+      {
+        "rank": 11,
+        "participant_name": "Josh Emmett",
+        "participant_id": "ufc_p_josh_emmett"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Patricio Pitbull",
+        "participant_id": "ufc_p_patricio_pitbull"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Kevin Vallejos",
+        "participant_id": "ufc_p_kevin_vallejos"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Dan Ige",
+        "participant_id": "ufc_p_dan_ige"
+      },
+      {
+        "rank": 15,
+        "participant_name": "David Onama",
+        "participant_id": "ufc_p_david_onama"
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:17.095Z"
+  },
+  {
+    "id": "ufc_rank_lightweight",
+    "sport": "mma",
+    "category": "Lightweight",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Justin Gaethje",
+        "participant_id": "ufc_p_justin_gaethje"
+      },
+      {
+        "rank": 2,
+        "participant_name": "Arman Tsarukyan",
+        "participant_id": "ufc_p_arman_tsarukyan"
+      },
+      {
+        "rank": 3,
+        "participant_name": "Charles Oliveira",
+        "participant_id": "ufc_p_charles_oliveira"
+      },
+      {
+        "rank": 4,
+        "participant_name": "Max Holloway",
+        "participant_id": "ufc_p_max_holloway"
+      },
+      {
+        "rank": 5,
+        "participant_name": "Benoît Saint Denis",
+        "participant_id": "ufc_p_benoît_saint_denis"
+      },
+      {
+        "rank": 6,
+        "participant_name": "Paddy Pimblett",
+        "participant_id": "ufc_p_paddy_pimblett"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Mateusz Gamrot",
+        "participant_id": "ufc_p_mateusz_gamrot"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Dan Hooker",
+        "participant_id": "ufc_p_dan_hooker"
+      },
+      {
+        "rank": 9,
+        "participant_name": "Mauricio Ruffy",
+        "participant_id": "ufc_p_mauricio_ruffy"
+      },
+      {
+        "rank": 10,
+        "participant_name": "Renato Moicano",
+        "participant_id": "ufc_p_renato_moicano"
+      },
+      {
+        "rank": 11,
+        "participant_name": "Rafael Fiziev",
+        "participant_id": "ufc_p_rafael_fiziev"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Beneil Dariush",
+        "participant_id": "ufc_p_beneil_dariush"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Michael Chandler",
+        "participant_id": "ufc_p_michael_chandler"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Manuel Torres",
+        "participant_id": "ufc_p_manuel_torres"
+      },
+      {
+        "rank": 15,
+        "participant_name": "Farès Ziam",
+        "participant_id": "ufc_p_farès_ziam"
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:17.095Z"
+  }
+]

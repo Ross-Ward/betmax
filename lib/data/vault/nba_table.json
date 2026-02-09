@@ -1,0 +1,1063 @@
+{
+  "id": "nba_table_2025_2026",
+  "season_id": "nba_2025_2026",
+  "entries": [
+    {
+      "participant_id": "nba_t_oklahoma_city_thunder",
+      "participant_name": "Oklahoma City Thunder",
+      "played": 31,
+      "won": 26,
+      "lost": 5,
+      "drawn": 0,
+      "goals_for": 3760,
+      "goals_against": 3328,
+      "points": 26,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_san_antonio_spurs",
+      "participant_name": "San Antonio Spurs",
+      "played": 30,
+      "won": 23,
+      "lost": 7,
+      "drawn": 0,
+      "goals_for": 3609,
+      "goals_against": 3396,
+      "points": 23,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_denver_nuggets",
+      "participant_name": "Denver Nuggets",
+      "played": 30,
+      "won": 22,
+      "lost": 8,
+      "drawn": 0,
+      "goals_for": 3774,
+      "goals_against": 3517,
+      "points": 22,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_los_angeles_lakers",
+      "participant_name": "Los Angeles Lakers",
+      "played": 29,
+      "won": 19,
+      "lost": 10,
+      "drawn": 0,
+      "goals_for": 3391,
+      "goals_against": 3406,
+      "points": 19,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_minnesota_timberwolves",
+      "participant_name": "Minnesota Timberwolves",
+      "played": 31,
+      "won": 20,
+      "lost": 11,
+      "drawn": 0,
+      "goals_for": 3693,
+      "goals_against": 3546,
+      "points": 20,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_houston_rockets",
+      "participant_name": "Houston Rockets",
+      "played": 28,
+      "won": 18,
+      "lost": 10,
+      "drawn": 0,
+      "goals_for": 3373,
+      "goals_against": 3140,
+      "points": 18,
+      "form": [
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_phoenix_suns",
+      "participant_name": "Phoenix Suns",
+      "played": 30,
+      "won": 17,
+      "lost": 13,
+      "drawn": 0,
+      "goals_for": 3446,
+      "goals_against": 3410,
+      "points": 17,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_golden_state_warriors",
+      "participant_name": "Golden State Warriors",
+      "played": 31,
+      "won": 16,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3551,
+      "goals_against": 3484,
+      "points": 16,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_memphis_grizzlies",
+      "participant_name": "Memphis Grizzlies",
+      "played": 31,
+      "won": 15,
+      "lost": 16,
+      "drawn": 0,
+      "goals_for": 3576,
+      "goals_against": 3591,
+      "points": 15,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_portland_trail_blazers",
+      "participant_name": "Portland Trail Blazers",
+      "played": 31,
+      "won": 12,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3616,
+      "goals_against": 3734,
+      "points": 12,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_dallas_mavericks",
+      "participant_name": "Dallas Mavericks",
+      "played": 32,
+      "won": 12,
+      "lost": 20,
+      "drawn": 0,
+      "goals_for": 3638,
+      "goals_against": 3764,
+      "points": 12,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_utah_jazz",
+      "participant_name": "Utah Jazz",
+      "played": 30,
+      "won": 11,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3608,
+      "goals_against": 3825,
+      "points": 11,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_los_angeles_clippers",
+      "participant_name": "Los Angeles Clippers",
+      "played": 30,
+      "won": 9,
+      "lost": 21,
+      "drawn": 0,
+      "goals_for": 3345,
+      "goals_against": 3459,
+      "points": 9,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_new_orleans_pelicans",
+      "participant_name": "New Orleans Pelicans",
+      "played": 32,
+      "won": 8,
+      "lost": 24,
+      "drawn": 0,
+      "goals_for": 3689,
+      "goals_against": 3922,
+      "points": 8,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_sacramento_kings",
+      "participant_name": "Sacramento Kings",
+      "played": 30,
+      "won": 7,
+      "lost": 23,
+      "drawn": 0,
+      "goals_for": 3360,
+      "goals_against": 3674,
+      "points": 7,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_detroit_pistons",
+      "participant_name": "Detroit Pistons",
+      "played": 31,
+      "won": 24,
+      "lost": 7,
+      "drawn": 0,
+      "goals_for": 3704,
+      "goals_against": 3500,
+      "points": 24,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_new_york_knicks",
+      "participant_name": "New York Knicks",
+      "played": 30,
+      "won": 21,
+      "lost": 9,
+      "drawn": 0,
+      "goals_for": 3608,
+      "goals_against": 3399,
+      "points": 21,
+      "form": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_boston_celtics",
+      "participant_name": "Boston Celtics",
+      "played": 30,
+      "won": 19,
+      "lost": 11,
+      "drawn": 0,
+      "goals_for": 3504,
+      "goals_against": 3311,
+      "points": 19,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_toronto_raptors",
+      "participant_name": "Toronto Raptors",
+      "played": 32,
+      "won": 18,
+      "lost": 14,
+      "drawn": 0,
+      "goals_for": 3633,
+      "goals_against": 3599,
+      "points": 18,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_philadelphia_76ers",
+      "participant_name": "Philadelphia 76ers",
+      "played": 29,
+      "won": 16,
+      "lost": 13,
+      "drawn": 0,
+      "goals_for": 3366,
+      "goals_against": 3340,
+      "points": 16,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_orlando_magic",
+      "participant_name": "Orlando Magic",
+      "played": 31,
+      "won": 17,
+      "lost": 14,
+      "drawn": 0,
+      "goals_for": 3620,
+      "goals_against": 3565,
+      "points": 17,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_cleveland_cavaliers",
+      "participant_name": "Cleveland Cavaliers",
+      "played": 32,
+      "won": 17,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3845,
+      "goals_against": 3769,
+      "points": 17,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_miami_heat",
+      "participant_name": "Miami Heat",
+      "played": 31,
+      "won": 16,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3703,
+      "goals_against": 3640,
+      "points": 16,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_chicago_bulls",
+      "participant_name": "Chicago Bulls",
+      "played": 30,
+      "won": 15,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3581,
+      "goals_against": 3670,
+      "points": 15,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_atlanta_hawks",
+      "participant_name": "Atlanta Hawks",
+      "played": 32,
+      "won": 15,
+      "lost": 17,
+      "drawn": 0,
+      "goals_for": 3794,
+      "goals_against": 3834,
+      "points": 15,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_milwaukee_bucks",
+      "participant_name": "Milwaukee Bucks",
+      "played": 31,
+      "won": 12,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3495,
+      "goals_against": 3610,
+      "points": 12,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_charlotte_hornets",
+      "participant_name": "Charlotte Hornets",
+      "played": 31,
+      "won": 11,
+      "lost": 20,
+      "drawn": 0,
+      "goals_for": 3583,
+      "goals_against": 3670,
+      "points": 11,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_brooklyn_nets",
+      "participant_name": "Brooklyn Nets",
+      "played": 28,
+      "won": 9,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3060,
+      "goals_against": 3190,
+      "points": 9,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_washington_wizards",
+      "participant_name": "Washington Wizards",
+      "played": 29,
+      "won": 6,
+      "lost": 23,
+      "drawn": 0,
+      "goals_for": 3291,
+      "goals_against": 3649,
+      "points": 6,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_indiana_pacers",
+      "participant_name": "Indiana Pacers",
+      "played": 31,
+      "won": 6,
+      "lost": 25,
+      "drawn": 0,
+      "goals_for": 3397,
+      "goals_against": 3671,
+      "points": 6,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_new_york_knicks",
+      "participant_name": "New York Knicks",
+      "played": 30,
+      "won": 21,
+      "lost": 9,
+      "drawn": 0,
+      "goals_for": 3608,
+      "goals_against": 3399,
+      "points": 21,
+      "form": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_boston_celtics",
+      "participant_name": "Boston Celtics",
+      "played": 30,
+      "won": 19,
+      "lost": 11,
+      "drawn": 0,
+      "goals_for": 3504,
+      "goals_against": 3311,
+      "points": 19,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_toronto_raptors",
+      "participant_name": "Toronto Raptors",
+      "played": 32,
+      "won": 18,
+      "lost": 14,
+      "drawn": 0,
+      "goals_for": 3633,
+      "goals_against": 3599,
+      "points": 18,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_philadelphia_76ers",
+      "participant_name": "Philadelphia 76ers",
+      "played": 29,
+      "won": 16,
+      "lost": 13,
+      "drawn": 0,
+      "goals_for": 3366,
+      "goals_against": 3340,
+      "points": 16,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_brooklyn_nets",
+      "participant_name": "Brooklyn Nets",
+      "played": 28,
+      "won": 9,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3060,
+      "goals_against": 3190,
+      "points": 9,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_orlando_magic",
+      "participant_name": "Orlando Magic",
+      "played": 31,
+      "won": 17,
+      "lost": 14,
+      "drawn": 0,
+      "goals_for": 3620,
+      "goals_against": 3565,
+      "points": 17,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_miami_heat",
+      "participant_name": "Miami Heat",
+      "played": 31,
+      "won": 16,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3703,
+      "goals_against": 3640,
+      "points": 16,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_atlanta_hawks",
+      "participant_name": "Atlanta Hawks",
+      "played": 32,
+      "won": 15,
+      "lost": 17,
+      "drawn": 0,
+      "goals_for": 3794,
+      "goals_against": 3834,
+      "points": 15,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_charlotte_hornets",
+      "participant_name": "Charlotte Hornets",
+      "played": 31,
+      "won": 11,
+      "lost": 20,
+      "drawn": 0,
+      "goals_for": 3583,
+      "goals_against": 3670,
+      "points": 11,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_washington_wizards",
+      "participant_name": "Washington Wizards",
+      "played": 29,
+      "won": 6,
+      "lost": 23,
+      "drawn": 0,
+      "goals_for": 3291,
+      "goals_against": 3649,
+      "points": 6,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_detroit_pistons",
+      "participant_name": "Detroit Pistons",
+      "played": 31,
+      "won": 24,
+      "lost": 7,
+      "drawn": 0,
+      "goals_for": 3704,
+      "goals_against": 3500,
+      "points": 24,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_cleveland_cavaliers",
+      "participant_name": "Cleveland Cavaliers",
+      "played": 32,
+      "won": 17,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3845,
+      "goals_against": 3769,
+      "points": 17,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_chicago_bulls",
+      "participant_name": "Chicago Bulls",
+      "played": 30,
+      "won": 15,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3581,
+      "goals_against": 3670,
+      "points": 15,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_milwaukee_bucks",
+      "participant_name": "Milwaukee Bucks",
+      "played": 31,
+      "won": 12,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3495,
+      "goals_against": 3610,
+      "points": 12,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_indiana_pacers",
+      "participant_name": "Indiana Pacers",
+      "played": 31,
+      "won": 6,
+      "lost": 25,
+      "drawn": 0,
+      "goals_for": 3397,
+      "goals_against": 3671,
+      "points": 6,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_oklahoma_city_thunder",
+      "participant_name": "Oklahoma City Thunder",
+      "played": 31,
+      "won": 26,
+      "lost": 5,
+      "drawn": 0,
+      "goals_for": 3760,
+      "goals_against": 3328,
+      "points": 26,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_denver_nuggets",
+      "participant_name": "Denver Nuggets",
+      "played": 30,
+      "won": 22,
+      "lost": 8,
+      "drawn": 0,
+      "goals_for": 3774,
+      "goals_against": 3517,
+      "points": 22,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_minnesota_timberwolves",
+      "participant_name": "Minnesota Timberwolves",
+      "played": 31,
+      "won": 20,
+      "lost": 11,
+      "drawn": 0,
+      "goals_for": 3693,
+      "goals_against": 3546,
+      "points": 20,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_portland_trail_blazers",
+      "participant_name": "Portland Trail Blazers",
+      "played": 31,
+      "won": 12,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3616,
+      "goals_against": 3734,
+      "points": 12,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_utah_jazz",
+      "participant_name": "Utah Jazz",
+      "played": 30,
+      "won": 11,
+      "lost": 19,
+      "drawn": 0,
+      "goals_for": 3608,
+      "goals_against": 3825,
+      "points": 11,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_los_angeles_lakers",
+      "participant_name": "Los Angeles Lakers",
+      "played": 29,
+      "won": 19,
+      "lost": 10,
+      "drawn": 0,
+      "goals_for": 3391,
+      "goals_against": 3406,
+      "points": 19,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_phoenix_suns",
+      "participant_name": "Phoenix Suns",
+      "played": 30,
+      "won": 17,
+      "lost": 13,
+      "drawn": 0,
+      "goals_for": 3446,
+      "goals_against": 3410,
+      "points": 17,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_golden_state_warriors",
+      "participant_name": "Golden State Warriors",
+      "played": 31,
+      "won": 16,
+      "lost": 15,
+      "drawn": 0,
+      "goals_for": 3551,
+      "goals_against": 3484,
+      "points": 16,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_los_angeles_clippers",
+      "participant_name": "Los Angeles Clippers",
+      "played": 30,
+      "won": 9,
+      "lost": 21,
+      "drawn": 0,
+      "goals_for": 3345,
+      "goals_against": 3459,
+      "points": 9,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_sacramento_kings",
+      "participant_name": "Sacramento Kings",
+      "played": 30,
+      "won": 7,
+      "lost": 23,
+      "drawn": 0,
+      "goals_for": 3360,
+      "goals_against": 3674,
+      "points": 7,
+      "form": [
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_san_antonio_spurs",
+      "participant_name": "San Antonio Spurs",
+      "played": 30,
+      "won": 23,
+      "lost": 7,
+      "drawn": 0,
+      "goals_for": 3609,
+      "goals_against": 3396,
+      "points": 23,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_houston_rockets",
+      "participant_name": "Houston Rockets",
+      "played": 28,
+      "won": 18,
+      "lost": 10,
+      "drawn": 0,
+      "goals_for": 3373,
+      "goals_against": 3140,
+      "points": 18,
+      "form": [
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_memphis_grizzlies",
+      "participant_name": "Memphis Grizzlies",
+      "played": 31,
+      "won": 15,
+      "lost": 16,
+      "drawn": 0,
+      "goals_for": 3576,
+      "goals_against": 3591,
+      "points": 15,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "nba_t_dallas_mavericks",
+      "participant_name": "Dallas Mavericks",
+      "played": 32,
+      "won": 12,
+      "lost": 20,
+      "drawn": 0,
+      "goals_for": 3638,
+      "goals_against": 3764,
+      "points": 12,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "nba_t_new_orleans_pelicans",
+      "participant_name": "New Orleans Pelicans",
+      "played": 32,
+      "won": 8,
+      "lost": 24,
+      "drawn": 0,
+      "goals_for": 3689,
+      "goals_against": 3922,
+      "points": 8,
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    }
+  ],
+  "last_updated": "2025-12-27T21:07:17.184Z"
+}

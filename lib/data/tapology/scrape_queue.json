@@ -1,0 +1,30 @@
+{
+  "https://www.tapology.com/rankings/current-top-10-best-pound-for-pound-mma-and-ufc-fighters": {
+    "url": "https://www.tapology.com/rankings/current-top-10-best-pound-for-pound-mma-and-ufc-fighters",
+    "type": "ranking",
+    "sport": "mma",
+    "status": "completed",
+    "retries": 0
+  },
+  "https://www.tapology.com/rankings/225-top-boxing-pound-for-pound-rankings": {
+    "url": "https://www.tapology.com/rankings/225-top-boxing-pound-for-pound-rankings",
+    "type": "ranking",
+    "sport": "boxing",
+    "status": "completed",
+    "retries": 0
+  },
+  "https://www.tapology.com/fightcenter?group=major&sport=mma": {
+    "url": "https://www.tapology.com/fightcenter?group=major&sport=mma",
+    "type": "ranking",
+    "sport": "mma",
+    "status": "completed",
+    "retries": 0
+  },
+  "https://www.tapology.com/rankings/top-kickboxing-fighters-of-all-time": {
+    "url": "https://www.tapology.com/rankings/top-kickboxing-fighters-of-all-time",
+    "type": "ranking",
+    "sport": "kickboxing",
+    "status": "completed",
+    "retries": 0
+  }
+}

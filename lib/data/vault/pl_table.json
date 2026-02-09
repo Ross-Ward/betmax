@@ -1,0 +1,367 @@
+{
+  "id": "pl_table_2025_2026",
+  "season_id": "pl_2025_2026",
+  "entries": [
+    {
+      "participant_id": "pl_t_arsenal",
+      "participant_name": "Arsenal",
+      "played": 24,
+      "won": 16,
+      "drawn": 5,
+      "lost": 3,
+      "goals_for": 46,
+      "goals_against": 17,
+      "points": 53,
+      "form": [
+        "W",
+        "L",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "pl_t_manchester_city",
+      "participant_name": "Manchester City",
+      "played": 24,
+      "won": 14,
+      "drawn": 5,
+      "lost": 5,
+      "goals_for": 49,
+      "goals_against": 23,
+      "points": 47,
+      "form": [
+        "D",
+        "W",
+        "L",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_aston_villa",
+      "participant_name": "Aston Villa",
+      "played": 24,
+      "won": 14,
+      "drawn": 4,
+      "lost": 6,
+      "goals_for": 35,
+      "goals_against": 26,
+      "points": 46,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "pl_t_manchester_utd",
+      "participant_name": "Manchester Utd",
+      "played": 24,
+      "won": 11,
+      "drawn": 8,
+      "lost": 5,
+      "goals_for": 44,
+      "goals_against": 36,
+      "points": 41,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_chelsea",
+      "participant_name": "Chelsea",
+      "played": 24,
+      "won": 11,
+      "drawn": 7,
+      "lost": 6,
+      "goals_for": 42,
+      "goals_against": 27,
+      "points": 40,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_liverpool",
+      "participant_name": "Liverpool",
+      "played": 24,
+      "won": 11,
+      "drawn": 6,
+      "lost": 7,
+      "goals_for": 39,
+      "goals_against": 33,
+      "points": 39,
+      "form": [
+        "W",
+        "L",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_brentford",
+      "participant_name": "Brentford",
+      "played": 24,
+      "won": 11,
+      "drawn": 3,
+      "lost": 10,
+      "goals_for": 36,
+      "goals_against": 32,
+      "points": 36,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "pl_t_fulham",
+      "participant_name": "Fulham",
+      "played": 24,
+      "won": 10,
+      "drawn": 4,
+      "lost": 10,
+      "goals_for": 34,
+      "goals_against": 35,
+      "points": 34,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_everton",
+      "participant_name": "Everton",
+      "played": 24,
+      "won": 9,
+      "drawn": 7,
+      "lost": 8,
+      "goals_for": 26,
+      "goals_against": 27,
+      "points": 34,
+      "form": [
+        "D",
+        "D",
+        "W",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_newcastle",
+      "participant_name": "Newcastle",
+      "played": 24,
+      "won": 9,
+      "drawn": 6,
+      "lost": 9,
+      "goals_for": 33,
+      "goals_against": 33,
+      "points": 33,
+      "form": [
+        "L",
+        "L",
+        "D",
+        "W",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "pl_t_sunderland",
+      "participant_name": "Sunderland",
+      "played": 23,
+      "won": 8,
+      "drawn": 9,
+      "lost": 6,
+      "goals_for": 24,
+      "goals_against": 26,
+      "points": 33,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_bournemouth",
+      "participant_name": "Bournemouth",
+      "played": 24,
+      "won": 8,
+      "drawn": 9,
+      "lost": 7,
+      "goals_for": 40,
+      "goals_against": 43,
+      "points": 33,
+      "form": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_brighton",
+      "participant_name": "Brighton",
+      "played": 24,
+      "won": 7,
+      "drawn": 10,
+      "lost": 7,
+      "goals_for": 34,
+      "goals_against": 32,
+      "points": 31,
+      "form": [
+        "D",
+        "L",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    {
+      "participant_id": "pl_t_tottenham",
+      "participant_name": "Tottenham",
+      "played": 24,
+      "won": 7,
+      "drawn": 8,
+      "lost": 9,
+      "goals_for": 35,
+      "goals_against": 33,
+      "points": 29,
+      "form": [
+        "D",
+        "D",
+        "L",
+        "L",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_crystal_palace",
+      "participant_name": "Crystal Palace",
+      "played": 24,
+      "won": 7,
+      "drawn": 8,
+      "lost": 9,
+      "goals_for": 25,
+      "goals_against": 29,
+      "points": 29,
+      "form": [
+        "D",
+        "L",
+        "L",
+        "D",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_leeds",
+      "participant_name": "Leeds",
+      "played": 24,
+      "won": 6,
+      "drawn": 8,
+      "lost": 10,
+      "goals_for": 31,
+      "goals_against": 42,
+      "points": 26,
+      "form": [
+        "L",
+        "D",
+        "W",
+        "L",
+        "D"
+      ]
+    },
+    {
+      "participant_id": "pl_t_nottingham",
+      "participant_name": "Nottingham",
+      "played": 24,
+      "won": 7,
+      "drawn": 5,
+      "lost": 12,
+      "goals_for": 24,
+      "goals_against": 35,
+      "points": 26,
+      "form": [
+        "D",
+        "W",
+        "D",
+        "W",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_west_ham",
+      "participant_name": "West Ham",
+      "played": 24,
+      "won": 5,
+      "drawn": 5,
+      "lost": 14,
+      "goals_for": 29,
+      "goals_against": 48,
+      "points": 20,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_burnley",
+      "participant_name": "Burnley",
+      "played": 23,
+      "won": 3,
+      "drawn": 6,
+      "lost": 14,
+      "goals_for": 25,
+      "goals_against": 44,
+      "points": 15,
+      "form": [
+        "D",
+        "D",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    {
+      "participant_id": "pl_t_wolves",
+      "participant_name": "Wolves",
+      "played": 24,
+      "won": 1,
+      "drawn": 5,
+      "lost": 18,
+      "goals_for": 15,
+      "goals_against": 45,
+      "points": 8,
+      "form": [
+        "L",
+        "L",
+        "D",
+        "D",
+        "W"
+      ]
+    }
+  ],
+  "last_updated": "2026-02-02T19:35:37.180Z"
+}

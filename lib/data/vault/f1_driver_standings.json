@@ -1,0 +1,19 @@
+[
+  {
+    "id": "f1_drivers_2024",
+    "sport": "f1",
+    "category": "Drivers Championship",
+    "entries": [
+      {
+        "rank": 1,
+        "participant_name": "Max Verstappen",
+        "participant_id": "f1_d_max_verstappen",
+        "points": 437,
+        "metadata": {
+          "team": "Red Bull Racing Honda RBPT"
+        }
+      }
+    ],
+    "last_updated": "2026-02-07T23:45:15.799Z"
+  }
+]
