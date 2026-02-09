@@ -63,6 +63,7 @@ test_output.txt
 # Debug & Verification Scripts
 *_debug.html
 verify_*.ts
+verify-*.ts
 verify_*.py
 verify_*.txt
 validation_*.txt
