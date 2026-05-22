@@ -77,3 +77,11 @@ inspect_*.js
 ts_*.html
 sportsurge_*.html
 /*.png
+
+# Local environments and generated artifacts
+.venv/
+*.pyc
+node_modules/
+.cache/
+.pytest_cache/
+results/
