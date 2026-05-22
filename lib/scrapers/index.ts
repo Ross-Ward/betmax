@@ -16,6 +16,7 @@ import { getSportSurgeEvents, getSportSurgeStreams } from "./implementations/spo
 import { getStreamEastEvents, getStreamEastStreams } from "./implementations/streameast-scraper";
 import { getSkyNewsEvents, getSkyNewsStreams } from "./implementations/skynews-scraper";
 import { getCricketEvents, getCricketStreams } from "./implementations/cricket-scraper";
+export { getCricketEvents, getCricketStreams };
 
 import { DatasetVault } from "../data/dataset-vault";
 

@@ -12,11 +12,13 @@ interface StreamsTabProps {
     events: Event[]
     sportTitle: string
     onWatch?: (stream: StreamLink, all: StreamLink[]) => void
+    favorites: string[]
+    onToggleFavorite: (eventId: string) => void
 }
 
 import { EventCard } from "./event-card"
 
-export function StreamsTab({ events, sportTitle, onWatch }: StreamsTabProps) {
+export function StreamsTab({ events, sportTitle, onWatch, favorites, onToggleFavorite }: StreamsTabProps) {
     const [expandedEvents, setExpandedEvents] = useState<string[]>([])
     const [fetchedStreams, setFetchedStreams] = useState<Record<string, StreamLink[]>>({})
     const [loadingStreams, setLoadingStreams] = useState<Record<string, boolean>>({})
@@ -81,6 +83,7 @@ export function StreamsTab({ events, sportTitle, onWatch }: StreamsTabProps) {
                             const currentStreams = fetchedStreams[event.id] || event.streams || []
                             const isLoading = loadingStreams[event.id]
                             const streamCount = currentStreams.length
+                            const isFav = favorites.includes(event.id)
 
                             return (
                                 <div key={event.id} className="space-y-4">
@@ -88,6 +91,8 @@ export function StreamsTab({ events, sportTitle, onWatch }: StreamsTabProps) {
                                         event={event}
                                         onClick={() => toggleEvent(event)}
                                         isExpanded={isExpanded}
+                                        isFavorite={isFav}
+                                        onToggleFavorite={() => onToggleFavorite(event.id)}
                                     />
 
                                     {isExpanded && (

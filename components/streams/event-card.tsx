@@ -4,26 +4,25 @@ import { Event } from "@/lib/types"
 import { Badge } from "@/components/ui/badge"
 import { Star } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { parseEventTime } from "@/lib/time-utils"
 
 interface EventCardProps {
     event: Event
     onClick: () => void
     isExpanded: boolean
+    isFavorite?: boolean
+    onToggleFavorite?: (e: React.MouseEvent) => void
 }
 
-export function EventCard({ event, onClick, isExpanded }: EventCardProps) {
-    const isLive = (time: string) => {
-        const lower = time.toLowerCase()
-        return lower.includes('started') || lower.includes('live') || lower.includes("'") || lower.includes("ht") || lower.includes("now")
-    }
-
-    const live = isLive(event.commence_time || "")
+export function EventCard({ event, onClick, isExpanded, isFavorite, onToggleFavorite }: EventCardProps) {
+    const { display: displayTime, isLive: live, isEnded } = parseEventTime(event.commence_time);
 
     return (
         <div
-            onClick={onClick}
+            onClick={!isEnded ? onClick : undefined}
             className={cn(
-                "group relative bg-[#1e2736] hover:bg-[#252f40] border border-white/5 rounded-2xl p-4 transition-all duration-300 cursor-pointer shadow-lg",
+                "group relative bg-[#1e2736] border border-white/5 rounded-2xl p-4 transition-all duration-300 shadow-lg",
+                isEnded ? "opacity-50 cursor-not-allowed grayscale" : "hover:bg-[#252f40] cursor-pointer",
                 isExpanded && "ring-2 ring-primary/40 bg-[#252f40]"
             )}
         >
@@ -53,7 +52,16 @@ export function EventCard({ event, onClick, isExpanded }: EventCardProps) {
                                 {event.home_team}
                             </span>
                         </div>
-                        <Star className="h-4 w-4 text-zinc-600 hover:text-yellow-500 transition-colors cursor-pointer" />
+                        <Star
+                            className={cn(
+                                "h-4 w-4 transition-colors cursor-pointer",
+                                isFavorite ? "text-yellow-500 fill-yellow-500" : "text-zinc-600 hover:text-yellow-500"
+                            )}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                onToggleFavorite?.(e);
+                            }}
+                        />
                     </div>
 
                     {/* Away Team */}
@@ -72,7 +80,16 @@ export function EventCard({ event, onClick, isExpanded }: EventCardProps) {
                                 {event.away_team}
                             </span>
                         </div>
-                        <Star className="h-4 w-4 text-zinc-600 hover:text-yellow-500 transition-colors cursor-pointer" />
+                        <Star
+                            className={cn(
+                                "h-4 w-4 transition-colors cursor-pointer",
+                                isFavorite ? "text-yellow-500 fill-yellow-500" : "text-zinc-600 hover:text-yellow-500"
+                            )}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                onToggleFavorite?.(e);
+                            }}
+                        />
                     </div>
                 </div>
 
@@ -86,10 +103,10 @@ export function EventCard({ event, onClick, isExpanded }: EventCardProps) {
                     ) : (
                         <div className="text-center">
                             <div className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider mb-0.5">
-                                Today
+                                {displayTime.includes('Tmrw') ? 'Tomorrow' : displayTime.includes(',') ? displayTime.split(',')[0] : 'Today'}
                             </div>
                             <div className="text-sm font-bold text-zinc-300">
-                                {event.commence_time}
+                                {displayTime.replace('Tmrw ', '').split(',').pop()?.trim()}
                             </div>
                         </div>
                     )}

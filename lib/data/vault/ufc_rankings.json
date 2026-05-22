@@ -36,13 +36,13 @@
       },
       {
         "rank": 7,
-        "participant_name": "Merab Dvalishvili",
-        "participant_id": "ufc_p_merab_dvalishvili"
+        "participant_name": "Tom Aspinall",
+        "participant_id": "ufc_p_tom_aspinall"
       },
       {
         "rank": 8,
-        "participant_name": "Tom Aspinall",
-        "participant_id": "ufc_p_tom_aspinall"
+        "participant_name": "Merab Dvalishvili",
+        "participant_id": "ufc_p_merab_dvalishvili"
       },
       {
         "rank": 9,
@@ -51,28 +51,28 @@
       },
       {
         "rank": 10,
-        "participant_name": "Max Holloway",
-        "participant_id": "ufc_p_max_holloway"
-      },
-      {
-        "rank": 11,
         "participant_name": "Joshua Van",
         "participant_id": "ufc_p_joshua_van"
       },
       {
-        "rank": 12,
-        "participant_name": "Magomed Ankalaev",
-        "participant_id": "ufc_p_magomed_ankalaev"
+        "rank": 11,
+        "participant_name": "Charles Oliveira",
+        "participant_id": "ufc_p_charles_oliveira"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "participant_name": "Dricus Du Plessis",
         "participant_id": "ufc_p_dricus_du_plessis"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "participant_name": "Jack Della Maddalena",
         "participant_id": "ufc_p_jack_della_maddalena"
+      },
+      {
+        "rank": 14,
+        "participant_name": "Magomed Ankalaev",
+        "participant_id": "ufc_p_magomed_ankalaev"
       },
       {
         "rank": 15,
@@ -80,7 +80,7 @@
         "participant_id": "ufc_p_arman_tsarukyan"
       }
     ],
-    "last_updated": "2026-02-07T23:45:17.095Z"
+    "last_updated": "2026-03-21T22:44:55.416Z"
   },
   {
     "id": "ufc_rank_flyweight",
@@ -109,28 +109,28 @@
       },
       {
         "rank": 5,
-        "participant_name": "Brandon Moreno",
-        "participant_id": "ufc_p_brandon_moreno"
-      },
-      {
-        "rank": 6,
-        "participant_name": "Amir Albazi",
-        "participant_id": "ufc_p_amir_albazi"
-      },
-      {
-        "rank": 7,
-        "participant_name": "Asu Almabayev",
-        "participant_id": "ufc_p_asu_almabayev"
-      },
-      {
-        "rank": 8,
         "participant_name": "Kyoji Horiguchi",
         "participant_id": "ufc_p_kyoji_horiguchi"
       },
       {
+        "rank": 6,
+        "participant_name": "Lone’er Kavanagh",
+        "participant_id": "ufc_p_lone’er_kavanagh"
+      },
+      {
+        "rank": 7,
+        "participant_name": "Amir Albazi",
+        "participant_id": "ufc_p_amir_albazi"
+      },
+      {
+        "rank": 8,
+        "participant_name": "Asu Almabayev",
+        "participant_id": "ufc_p_asu_almabayev"
+      },
+      {
         "rank": 9,
-        "participant_name": "Tim Elliott",
-        "participant_id": "ufc_p_tim_elliott"
+        "participant_name": "Brandon Moreno",
+        "participant_id": "ufc_p_brandon_moreno"
       },
       {
         "rank": 10,
@@ -139,13 +139,13 @@
       },
       {
         "rank": 11,
-        "participant_name": "Steve Erceg",
-        "participant_id": "ufc_p_steve_erceg"
+        "participant_name": "Tim Elliott",
+        "participant_id": "ufc_p_tim_elliott"
       },
       {
         "rank": 12,
-        "participant_name": "Tagir Ulanbekov",
-        "participant_id": "ufc_p_tagir_ulanbekov"
+        "participant_name": "Steve Erceg",
+        "participant_id": "ufc_p_steve_erceg"
       },
       {
         "rank": 13,
@@ -154,16 +154,16 @@
       },
       {
         "rank": 14,
-        "participant_name": "Bruno Silva",
-        "participant_id": "ufc_p_bruno_silva"
+        "participant_name": "Tagir Ulanbekov",
+        "participant_id": "ufc_p_tagir_ulanbekov"
       },
       {
         "rank": 15,
-        "participant_name": "Lone’er Kavanagh",
-        "participant_id": "ufc_p_lone’er_kavanagh"
+        "participant_name": "Bruno Silva",
+        "participant_id": "ufc_p_bruno_silva"
       }
     ],
-    "last_updated": "2026-02-07T23:45:17.095Z"
+    "last_updated": "2026-03-21T22:44:55.416Z"
   },
   {
     "id": "ufc_rank_bantamweight",
@@ -181,7 +181,7 @@
         "participant_id": "ufc_p_umar_nurmagomedov"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "participant_name": "Sean O'Malley",
         "participant_id": "ufc_p_sean_o'malley"
       },
@@ -207,46 +207,46 @@
       },
       {
         "rank": 8,
-        "participant_name": "Marlon Vera",
-        "participant_id": "ufc_p_marlon_vera"
-      },
-      {
-        "rank": 9,
         "participant_name": "Mario Bautista",
         "participant_id": "ufc_p_mario_bautista"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "participant_name": "David Martinez",
         "participant_id": "ufc_p_david_martinez"
       },
       {
-        "rank": 11,
-        "participant_name": "Vinicius Oliveira",
-        "participant_id": "ufc_p_vinicius_oliveira"
+        "rank": 10,
+        "participant_name": "Marlon Vera",
+        "participant_id": "ufc_p_marlon_vera"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "participant_name": "Payton Talbott",
         "participant_id": "ufc_p_payton_talbott"
       },
       {
+        "rank": 12,
+        "participant_name": "Vinicius Oliveira",
+        "participant_id": "ufc_p_vinicius_oliveira"
+      },
+      {
         "rank": 13,
-        "participant_name": "Rob Font",
-        "participant_id": "ufc_p_rob_font"
+        "participant_name": "Raul Rosas Jr.",
+        "participant_id": "ufc_p_raul_rosas_jr."
       },
       {
         "rank": 14,
-        "participant_name": "Kyler Phillips",
-        "participant_id": "ufc_p_kyler_phillips"
+        "participant_name": "Montel Jackson",
+        "participant_id": "ufc_p_montel_jackson"
       },
       {
         "rank": 15,
-        "participant_name": "Montel Jackson",
-        "participant_id": "ufc_p_montel_jackson"
+        "participant_name": "Farid Basharat",
+        "participant_id": "ufc_p_farid_basharat"
       }
     ],
-    "last_updated": "2026-02-07T23:45:17.095Z"
+    "last_updated": "2026-03-21T22:44:55.416Z"
   },
   {
     "id": "ufc_rank_featherweight",
@@ -285,13 +285,13 @@
       },
       {
         "rank": 7,
-        "participant_name": "Arnold Allen",
-        "participant_id": "ufc_p_arnold_allen"
+        "participant_name": "Youssef Zalal",
+        "participant_id": "ufc_p_youssef_zalal"
       },
       {
         "rank": 8,
-        "participant_name": "Youssef Zalal",
-        "participant_id": "ufc_p_youssef_zalal"
+        "participant_name": "Arnold Allen",
+        "participant_id": "ufc_p_arnold_allen"
       },
       {
         "rank": 9,
@@ -300,36 +300,36 @@
       },
       {
         "rank": 10,
-        "participant_name": "Brian Ortega",
-        "participant_id": "ufc_p_brian_ortega"
-      },
-      {
-        "rank": 11,
-        "participant_name": "Josh Emmett",
-        "participant_id": "ufc_p_josh_emmett"
-      },
-      {
-        "rank": 12,
-        "participant_name": "Patricio Pitbull",
-        "participant_id": "ufc_p_patricio_pitbull"
-      },
-      {
-        "rank": 13,
         "participant_name": "Kevin Vallejos",
         "participant_id": "ufc_p_kevin_vallejos"
       },
       {
+        "rank": 11,
+        "participant_name": "Brian Ortega",
+        "participant_id": "ufc_p_brian_ortega"
+      },
+      {
+        "rank": 12,
+        "participant_name": "Melquizael Costa",
+        "participant_id": "ufc_p_melquizael_costa"
+      },
+      {
+        "rank": 13,
+        "participant_name": "Patricio Pitbull",
+        "participant_id": "ufc_p_patricio_pitbull"
+      },
+      {
         "rank": 14,
-        "participant_name": "Dan Ige",
-        "participant_id": "ufc_p_dan_ige"
+        "participant_name": "David Onama",
+        "participant_id": "ufc_p_david_onama"
       },
       {
         "rank": 15,
-        "participant_name": "David Onama",
-        "participant_id": "ufc_p_david_onama"
+        "participant_name": "Josh Emmett",
+        "participant_id": "ufc_p_josh_emmett"
       }
     ],
-    "last_updated": "2026-02-07T23:45:17.095Z"
+    "last_updated": "2026-03-21T22:44:55.416Z"
   },
   {
     "id": "ufc_rank_lightweight",
@@ -368,13 +368,13 @@
       },
       {
         "rank": 7,
-        "participant_name": "Mateusz Gamrot",
-        "participant_id": "ufc_p_mateusz_gamrot"
+        "participant_name": "Dan Hooker",
+        "participant_id": "ufc_p_dan_hooker"
       },
       {
         "rank": 8,
-        "participant_name": "Dan Hooker",
-        "participant_id": "ufc_p_dan_hooker"
+        "participant_name": "Mateusz Gamrot",
+        "participant_id": "ufc_p_mateusz_gamrot"
       },
       {
         "rank": 9,
@@ -387,7 +387,7 @@
         "participant_id": "ufc_p_renato_moicano"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "participant_name": "Rafael Fiziev",
         "participant_id": "ufc_p_rafael_fiziev"
       },
@@ -412,6 +412,6 @@
         "participant_id": "ufc_p_farès_ziam"
       }
     ],
-    "last_updated": "2026-02-07T23:45:17.095Z"
+    "last_updated": "2026-03-21T22:44:55.416Z"
   }
 ]

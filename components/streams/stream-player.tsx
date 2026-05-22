@@ -236,33 +236,16 @@ export function StreamPlayer({ stream, allStreams = [], open, onOpenChange, onSw
                     key={key}
                     src={stream.url}
                     onLoad={() => {
-                        console.log("Iframe loaded");
-                        setTimeout(() => setIsLoading(false), 1500);
+                        console.log("Stream iframe loaded");
+                        // Short timeout to allow initial handshake
+                        setTimeout(() => setIsLoading(false), 2000);
                     }}
                     className="w-full h-full border-none bg-zinc-950"
                     allowFullScreen
-                    referrerPolicy="no-referrer"
-                    sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-presentation allow-top-navigation-by-user-activation allow-storage-access-by-user-activation"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    // Removed no-referrer to allow default browser behavior (some streams require origin)
+                    // Removed sandbox attribute as it causes "remove sandbox tag" errors on many players
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 />
-
-                {/* Silent Audio Pitch Fix Logic */}
-                <script dangerouslySetInnerHTML={{
-                    __html: `
-                    (function() {
-                        const fixAudio = () => {
-                            try {
-                                const videos = document.querySelectorAll('video');
-                                videos.forEach(v => {
-                                    if (v.playbackRate !== 1.0) v.playbackRate = 1.0;
-                                    if (v.preservesPitch === false) v.preservesPitch = true;
-                                    if (v.muted) v.muted = false; // Try to unmute
-                                });
-                            } catch(e) {}
-                        };
-                        setInterval(fixAudio, 3000);
-                    })();
-                `}} />
             </div>
 
             {/* Resize Handle */}

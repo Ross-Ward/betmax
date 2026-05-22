@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import { Event } from "@/lib/types"
 import { StreamsTab } from "@/components/streams/streams-tab"
 import { Button } from "@/components/ui/button"
@@ -14,11 +14,11 @@ interface LiveDashboardProps {
     events: Event[]
 }
 
-import { useSearchParams } from 'next/navigation'
-
+import { useRouter, useSearchParams } from 'next/navigation'
 import { useStream } from "@/lib/stream-context"
-import { Search, Flame, Trophy, Activity, Target, Zap, Globe, LayoutGrid } from "lucide-react"
+import { Search, Flame, Trophy, Activity, Target, Zap, Globe, LayoutGrid, RefreshCw } from "lucide-react"
 import { Input } from "@/components/ui/input"
+import { parseEventTime } from "@/lib/time-utils"
 
 const FIXED_CATEGORIES = [
     { name: "All Sports", icon: LayoutGrid },
@@ -35,10 +35,42 @@ const FIXED_CATEGORIES = [
 ];
 
 export function LiveDashboard({ events }: LiveDashboardProps) {
+    const router = useRouter()
     const searchParams = useSearchParams()
     const initialCategory = searchParams.get('sport') || 'All Sports'
     const [activeCategory, setActiveCategory] = useState<string>(initialCategory)
     const [searchQuery, setSearchQuery] = useState("")
+    const [isRefreshing, setIsRefreshing] = useState(false)
+    const [filterMode, setFilterMode] = useState<'ALL' | 'LIVE' | 'HOT' | 'FAV'>('ALL')
+    const [favorites, setFavorites] = useState<string[]>([])
+
+    // Load favorites from local storage
+    useEffect(() => {
+        const saved = localStorage.getItem('betmax_favorites')
+        if (saved) {
+            try {
+                setFavorites(JSON.parse(saved))
+            } catch (e) { }
+        }
+    }, [])
+
+    const toggleFavorite = (id: string) => {
+        setFavorites(prev => {
+            const next = prev.includes(id) ? prev.filter(f => f !== id) : [...prev, id]
+            localStorage.setItem('betmax_favorites', JSON.stringify(next))
+            return next
+        })
+    }
+
+    // Auto-refresh every 60 seconds
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIsRefreshing(true);
+            router.refresh();
+            setTimeout(() => setIsRefreshing(false), 2000);
+        }, 60000);
+        return () => clearInterval(interval);
+    }, [router]);
 
     const { openStream } = useStream()
 
@@ -92,8 +124,8 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
 
         let filtered = uniqueEvents
 
+        // 1. Category Filter
         if (activeCategory !== "All Sports") {
-            // Mapping for category names (same as above for consistency)
             const catMap: Record<string, string[]> = {
                 "NBA": ["NBA", "Basketball"],
                 "NFL": ["NFL", "American Football"],
@@ -127,6 +159,26 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
             filtered = [...otherEvents, ...horseRaces.slice(0, 5)];
         }
 
+        // 2. Mode Filter (Live, Hot, Fav)
+        if (filterMode === 'LIVE') {
+            filtered = filtered.filter(e => {
+                const { isLive } = parseEventTime(e.commence_time);
+                return isLive;
+            });
+        } else if (filterMode === 'HOT') {
+            // Hot = Live OR Top Leagues
+            filtered = filtered.filter(e => {
+                const { isLive } = parseEventTime(e.commence_time);
+                if (isLive) return true;
+                const league = (e.league?.name || "").toLowerCase();
+                const sport = (e.sport_title || "").toLowerCase();
+                return league.includes('premier') || league.includes('nba') || league.includes('nfl') || league.includes('champion') || sport.includes('ufc');
+            });
+        } else if (filterMode === 'FAV') {
+            filtered = filtered.filter(e => favorites.includes(e.id));
+        }
+
+        // 3. Search Filter
         if (searchQuery) {
             const q = searchQuery.toLowerCase()
             filtered = filtered.filter(e =>
@@ -137,8 +189,9 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
             )
         }
 
+        console.log(`[Dashboard] Total: ${events.length}, Unique: ${uniqueEvents.length}, Visible: ${filtered.length}, Mode: ${filterMode}`);
         return filtered
-    }, [events, activeCategory, searchQuery])
+    }, [events, activeCategory, searchQuery, filterMode, favorites])
 
     return (
         <div className="min-h-screen bg-[#0f141d] text-zinc-100 p-4 sm:p-8 space-y-10">
@@ -155,16 +208,54 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
                 </div>
 
                 <div className="flex items-center gap-3">
-                    <Button variant="ghost" className="bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold gap-2">
-                        <Flame className="h-3.5 w-3.5 text-orange-500" />
-                        Live Only ({events.filter(e => e.commence_time?.toLowerCase().includes('live') || e.commence_time?.toLowerCase().includes('now')).length})
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => {
+                            setIsRefreshing(true);
+                            router.refresh();
+                            setTimeout(() => setIsRefreshing(false), 2000);
+                        }}
+                        className="bg-[#1a212d] border border-white/5 rounded-xl h-9 w-9 text-zinc-400 hover:text-white"
+                        title="Refresh Events"
+                    >
+                        <RefreshCw className={cn("h-4 w-4", isRefreshing && "animate-spin")} />
                     </Button>
-                    <Button variant="ghost" className="bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold gap-2">
-                        <Activity className="h-3.5 w-3.5 text-blue-500" />
-                        Hot Games (2)
+
+                    <Button
+                        variant="ghost"
+                        onClick={() => setFilterMode(prev => prev === 'LIVE' ? 'ALL' : 'LIVE')}
+                        className={cn(
+                            "bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold gap-2 transition-all",
+                            filterMode === 'LIVE' && "bg-orange-500/10 text-orange-500 border-orange-500/50"
+                        )}
+                    >
+                        <Flame className={cn("h-3.5 w-3.5", filterMode === 'LIVE' ? "text-orange-500" : "text-zinc-500")} />
+                        Live Only
                     </Button>
-                    <Button variant="ghost" className="bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold">
-                        Favorites
+
+                    <Button
+                        variant="ghost"
+                        onClick={() => setFilterMode(prev => prev === 'HOT' ? 'ALL' : 'HOT')}
+                        className={cn(
+                            "bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold gap-2 transition-all",
+                            filterMode === 'HOT' && "bg-blue-500/10 text-blue-500 border-blue-500/50"
+                        )}
+                    >
+                        <Activity className={cn("h-3.5 w-3.5", filterMode === 'HOT' ? "text-blue-500" : "text-zinc-500")} />
+                        Hot Games
+                    </Button>
+
+                    <Button
+                        variant="ghost"
+                        onClick={() => setFilterMode(prev => prev === 'FAV' ? 'ALL' : 'FAV')}
+                        className={cn(
+                            "bg-[#1a212d] border border-white/5 rounded-xl px-4 text-xs font-bold gap-2 transition-all",
+                            filterMode === 'FAV' && "bg-yellow-500/10 text-yellow-500 border-yellow-500/50"
+                        )}
+                    >
+                        <Target className={cn("h-3.5 w-3.5", filterMode === 'FAV' ? "text-yellow-500" : "text-zinc-500")} />
+                        Favorites ({favorites.length})
                     </Button>
                 </div>
             </div>
@@ -174,7 +265,7 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
                 {FIXED_CATEGORIES.map(cat => (
                     <button
                         key={cat.name}
-                        onClick={() => setActiveCategory(cat.name)}
+                        onClick={() => { setActiveCategory(cat.name); setFilterMode('ALL'); }}
                         className={cn(
                             "flex flex-col items-center justify-center gap-3 p-5 rounded-2xl border transition-all duration-300 relative group",
                             activeCategory === cat.name
@@ -200,15 +291,19 @@ export function LiveDashboard({ events }: LiveDashboardProps) {
                 ))}
             </div>
 
-            {/* Events Content */}
             <div className="max-w-7xl mx-auto pt-4">
                 <StreamsTab
                     events={processedEvents}
                     sportTitle={activeCategory}
                     onWatch={(stream, all) => openStream(stream, all)}
+                    favorites={favorites}
+                    onToggleFavorite={toggleFavorite}
                 />
+            </div>
+
+            <div className="text-center text-[10px] text-zinc-700 font-mono py-4 opacity-50 hover:opacity-100 transition-opacity">
+                DEBUG: Total: {events.length} | Unique: {Array.from(new Set(events.map(e => e.id))).length} | Visible: {processedEvents.length} | Cat: {activeCategory} | Mode: {filterMode} | Favs: {favorites.length}
             </div>
         </div>
     )
 }
-
